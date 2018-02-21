@@ -134,6 +134,16 @@ figcaption{
     margin-top:1em;
 }
 
+body {
+  font-size: x-large;
+}
+@media (max-width: 1000px) {
+  body { font-size: large; }
+}
+@media (max-width: 500px) {
+  body { font-size: medium; }
+}
+
 @media only screen and (max-width: 565px) {
    .flex-container {
       flex-direction: column;
