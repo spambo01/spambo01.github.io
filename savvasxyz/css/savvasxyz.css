@@ -1,0 +1,153 @@
+.back-picture{
+     background: url('../pictures/iceland2.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+    height: 20em;
+}
+body{
+    margin: auto;
+    font-family:josefin sans;
+}
+
+a {
+    text-decoration: none;    color:#006400;
+   font-weight: bold; 
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;  
+    background-color: white;
+    padding-right:3em;
+    position:fixed;
+    width:100%;
+    border-bottom: 0.1em solid #3863a0;
+}
+
+.flex-container-card {
+    display: flex;
+    flex-flow: row wrap;
+  justify-content: center;
+    align-items: center;  
+    
+}
+.logo{    
+    font-size:2.1em;
+    font-weight: 800;
+    color:#24292E;
+   margin-right: auto;
+    padding:0.4em; 
+}
+
+a.logo:hover{
+    color: inherit;
+}
+.titles{
+    font-size: 1.6em;
+    color:#24292E;
+    font-weight: 600;   
+}
+
+section{
+    padding:0em 0em 0em 1em;
+    margin-top: 1.5em;
+}
+.about, .projects, .contact{
+ padding: 0.8em 0.5em 0em 0.5em;
+    font-size:1.6em;
+     color:#3863a0;
+    font-weight: 600; 
+}
+
+.about:hover, .projects:hover, .contact:hover{
+     color:#87ACE3;
+}
+
+
+
+#cv-section .flex-container-card p.professional-card {
+    text-align: center;
+}
+
+a:hover{    
+   color:#5aad5a;
+}
+
+.contact-icons {
+    width:32em;
+}
+.contact-icons i{
+    margin:0em 0.5em 0.4em 0.5em;    
+}
+
+.fa-twitter{ 
+    color:#00aced;
+}
+
+.fa-linkedin-in{
+    color:#0077B5;
+}
+
+.fa-github-alt, .fa-instagram, .fa-codepen{
+    color:#24292E;
+}
+
+.professional-card{   
+    background-color:white;  
+    width:25em;
+    font-size: 1.5em;
+    font-family:monospace;
+    border-right: 0.1em solid #24292E;
+    border-left: 0.1em solid #24292E;
+    padding: 0em 1em;
+    text-align: justify;
+}
+
+#cv-sub-category{
+    margin:0em;
+    font-size: 1.5em;
+    font-family:monospace;
+    border-left: 0.1em solid #24292E;
+    border-right: 0.1em solid #24292E;    
+    text-align: center;
+}
+
+footer{
+    text-align: right;
+    margin: 1em;
+    font-family: ubuntu;
+    font-size: 0.7em;
+}
+
+.thumbnails{
+    margin:0em 3em 0.5em 3em;
+    width:250px;
+    font-size: 1.3em;
+    font-family:monospace;
+}
+
+figcaption{
+    margin-bottom:1em;
+    margin-top:1em;
+}
+
+@media only screen and (max-width: 565px) {
+   .flex-container {
+      flex-direction: column;
+     text-align:center;
+        padding-right:0em;
+    }
+  .flex-container .logo {
+    margin-right:initial;
+    padding:0px 0px 20px 0px;
+  }
+  
+  .flex-container .about,
+  .flex-container .projects,
+  .flex-container .contact{
+  padding:0px 0px 5px 0px;
+}
+}
