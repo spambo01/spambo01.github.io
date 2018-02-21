@@ -52,18 +52,18 @@ a.logo:hover{
 }
 
 section{
-    padding:0em 0em 0em 1em;
+    padding:0em 0em 2em 0.8em;
     margin-top: 1.5em;
 }
 .about, .projects, .contact{
  padding: 0.8em 0.5em 0em 0.5em;
     font-size:1.6em;
-     color:#3863a0;
+     color:#000;
     font-weight: 600; 
 }
 
 .about:hover, .projects:hover, .contact:hover{
-     color:#87ACE3;
+     color:#3863a0;
 }
 
 
@@ -116,17 +116,24 @@ a:hover{
 }
 
 footer{
+    background-color: black;
     text-align: right;
-    margin: 1em;
+    padding: 1em;
     font-family: ubuntu;
     font-size: 0.7em;
+    color: white;
+    margin-top:5em;
 }
 
 .thumbnails{
-    margin:0em 3em 0.5em 3em;
-    width:250px;
+    margin:0em 3em 1.5em 3em;
+    width:20em;
     font-size: 1.3em;
     font-family:monospace;
+}
+
+.thumbnails img{
+    width:20em;
 }
 
 figcaption{
@@ -135,14 +142,14 @@ figcaption{
 }
 
 body {
-  font-size: x-large;
+  font-size: small;
 }
-/*@media (max-width: 1000px) {
-  body { font-size: large; }
+@media (max-width: 1000px) {
+  body { font-size: medium; }
 }
 @media (max-width: 500px) {
-  body { font-size: medium; }
-}*/
+  body { font-size: x-large; }
+}
 
 @media only screen and (max-width: 565px) {
    .flex-container {
