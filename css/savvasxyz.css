@@ -10,7 +10,7 @@
 body{
     margin: auto;
     font-family:josefin sans;
-    background-color: #fcfcfc;
+    background-color: white;
 }
 
 .professional-card{     
@@ -51,12 +51,12 @@ body{
 }
 
 nav{
-    background-color: white;
+    background-color: #24292E;
 }
 nav a{    
     font-size:2em;
     font-weight: normal;
-    color:#24292E;
+    color:white;
     text-decoration: none;
     margin:0.4em ;
 }
@@ -77,12 +77,12 @@ a {
 
 .projects{
     padding-right: 1em;
-    border-right:0.1em solid #24292E;
+    border-right:0.1em solid white;
 }
 
 .contact{
     padding-left: 1em;
-    border-left:0.1em solid #24292E;
+    border-left:0.1em solid white;
 }
 
 .logo{   
