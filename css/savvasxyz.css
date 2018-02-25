@@ -51,7 +51,7 @@ body{
 }
 
 nav{
-    background-color: #24292E;
+    background-color: #000;
 }
 nav a{    
     font-size:2em;
@@ -106,7 +106,8 @@ nav a:hover{
 }
 .subtitle{
     text-align: center;
-    font-size: 1.1em; 
+    font-size: 1.1em;
+    margin-top: 1em;
 }
 
 hr{
@@ -130,21 +131,14 @@ section{
 
 
 
-#cv-sub-category{
-    margin:0em;
-    font-size: 1.5em;
-    font-family:monospace;
-    border-left: 0.1em solid #24292E;
-    border-right: 0.1em solid #24292E;    
-    text-align: center;
+section#cv-section{
+    margin-bottom: 1em;
 }
 
 footer{
-    background-color: #24292E;
     text-align: right;
     font-family: ubuntu;
     font-size: 0.7em;
-    color: white;
 }
 
 .thumbnails{
