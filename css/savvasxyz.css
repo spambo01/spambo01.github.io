@@ -1,10 +1,10 @@
 .back-picture{
-     background: url('../pictures/iceland1.jpg') no-repeat center center fixed; 
+     background: url('../pictures/snow.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; 
-    height: 25em;    
+    height: 40em;    
 }
 
 body{
@@ -16,13 +16,30 @@ body{
 .professional-card{     
     width:25em;
     font-size: 1.5em;
-    font-family:monospace;
+    line-height: 1.5em;
     padding: 0em 1em;
     text-align: justify;
-    color:#24292E;    
+    color:black;   
     margin-top:7em;
     border-left: 0.1em #24292E solid;    
     border-right: 0.1em #24292E solid;
+}
+
+.five-s-card
+{       
+    width:20em;
+    color:black;    
+    margin:0em;
+    text-align: left;
+}
+
+h1{
+    font-size:2em;
+    font-weight: 100;
+}
+
+blockquote{
+    font-size:1.3em;
 }
 
 #cv-section .flex-container-card p.professional-card {
@@ -39,24 +56,31 @@ body{
     position:fixed;
     width:100%;
     /*border-bottom: 0.1em solid #3863a0;*/
-    
+}
+
+.flex-container-left {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content:flex-end;  
+    align-items:center;
 }
 
 .flex-container-card {
     display: flex;
     flex-flow: row wrap;
   justify-content: center;
-    align-items: center;  
-    
+    align-items: center;     
 }
 
+
+
 nav{
-    background-color: #000;
+    background-color: white;
 }
 nav a{    
     font-size:2em;
     font-weight: normal;
-    color:white;
+    color:black;
     text-decoration: none;
     margin:0.4em ;
 }
@@ -77,12 +101,12 @@ a {
 
 .projects{
     padding-right: 1em;
-    border-right:0.1em solid white;
+    border-right:0.1em solid black;
 }
 
 .contact{
     padding-left: 1em;
-    border-left:0.1em solid white;
+    border-left:0.1em solid black;
 }
 
 .logo{   
@@ -90,16 +114,13 @@ a {
     margin-right: 0.5em;   
 }
 
-a.logo:hover{
-    color: inherit;
-}
 
 nav a:hover{    
-   color:grey;
+   color:darkgray;
 }
 
 .titles{
-    font-size: 1.8em;
+    font-size: 2.2em;
     color:#24292E;
     margin-bottom: 2em;
        
@@ -137,7 +158,6 @@ section#cv-section{
 
 footer{
     text-align: right;
-    font-family: ubuntu;
     font-size: 0.7em;
 }
 
@@ -145,7 +165,6 @@ footer{
     margin:0em 10em 1.5em 10em;
     width:32em;
     font-size: 1.3em;
-    font-family:monospace;
 }
 
 .thumbnails img{
