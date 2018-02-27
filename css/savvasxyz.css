@@ -1,5 +1,5 @@
 .back-picture{
-     background: url('../pictures/snow.jpg') no-repeat center center fixed; 
+     background: url('../pictures/chris-coe-407337-unsplash.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -19,19 +19,18 @@ body{
     line-height: 1.5em;
     padding: 0em 1em;
     text-align: justify;
-    color:black;   
-    margin-top:7em;
-    border-left: 0.1em #24292E solid;    
-    border-right: 0.1em #24292E solid;
+    color:white;   
+    margin-top:5em;
+    border-left: 0.1em white solid;    
+    border-right: 0.1em white solid;
 }
 
-.five-s-card
-{       
-    width:20em;
-    color:black;    
-    margin:0em;
-    text-align: left;
+#about-section div.professional-card  a{
+    color: white;
+    
+    text-decoration-color: white;
 }
+
 
 h1{
     font-size:2em;
@@ -71,8 +70,6 @@ blockquote{
   justify-content: center;
     align-items: center;     
 }
-
-
 
 nav{
     background-color: white;
