@@ -2,7 +2,8 @@ body{
     counter-reset: line;
     margin: auto;
     font-family: josefin sans;
-    background: black  ;
+  background-color: brown;
+
 }
 
 .professional-card{    
@@ -14,6 +15,7 @@ body{
     line-height: 1.5em;
     text-align: justify; 
     color: #A8A8A8; 
+    z-index:1;
 }
 
 h1{
@@ -26,7 +28,14 @@ h3{
     color: brown;
     padding-bottom: 0.3em;
     font-size:1.3em;
+    
 }
+
+.ball {
+  position:absolute;
+  border-radius: 100%;
+}
+
 blockquote{
     font-size:1.3em;
 }
@@ -47,7 +56,8 @@ nav{
     width:20em;
     height: 100%;
     position:fixed;
-    font-family: josefin sans;     
+    font-family: josefin sans; 
+    z-index:2;
 }
 
 nav ul li a{      
@@ -84,7 +94,7 @@ nav ul li a.timeline i{
  a.logo{
     font-size: 5em;
     color:#A52A2A;
-     
+     font-weight: bold;     
 }
 
     ul {
@@ -110,24 +120,35 @@ section{
     margin: 0em 0em 6em 20em;    
 }
 
+
+
 .contact-icons i{
-    padding:0em 0.5em 0em 1.3em;    
+    padding:0em 0.7em 0em 0.7em;    
 }
 
 .contact-icons  a
 {
+    color: #a8a8a8;
     text-decoration: none;
 }
-
-p#cv{
-    text-align: center;
+/*
+.contact-icons a:hover
+{
+    color:#a8a8a8;
 }
+
+.contact-icons{
+    background-color: brown;
+    text-align: center;
+}*/
+
 
 p#cv a {    
     text-decoration: underline;
 }
 
-figcaption a:hover, .contact-icons a:hover{
+figcaption a:hover, .contact-icons a:hover
+{
     color:brown;
 }
 
@@ -153,7 +174,7 @@ footer{
   width: 100%;
   opacity: 0;
   transition: .5s linear;
-  background-color: brown;
+  background-color: #24292E;
 }
 
 .img-container {
@@ -188,5 +209,6 @@ body {
 
 @media only screen and (max-width: 565px) {
     
+  font-size: large;
  
 }
