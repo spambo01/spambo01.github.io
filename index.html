@@ -16,6 +16,7 @@
 </head>
 
 <body>   
+    <div class="wrap-body">
         <nav class="">
         <ul>
              <li><a href="" class="logo">savvas</a>
@@ -104,9 +105,10 @@
     <footer>
         Designed by: <strong>Savvas Pamboukas</strong> - 2018
     </footer>
+        </div>
     <script>
-   // Some random colors
-const colors = ["#a8a8a8"];
+ 
+        
 
 const numBalls = 50;
 const balls = [];
@@ -114,8 +116,7 @@ const balls = [];
 for (let i = 0; i < numBalls; i++) {
   let ball = document.createElement("div");
   ball.classList.add("ball");
-  ball.style.background = colors[Math.floor(Math.random() * colors.length)];
-  ball.style.left = `${Math.floor(Math.random() * 90)}vw`;
+  ball.style.left = `${Math.floor(Math.random() * 88)}vw`;
   ball.style.top = `${Math.floor(Math.random() * 100)}vh`;
   ball.style.transform = `scale(${Math.random()})`;
   ball.style.width = '0.5em';
