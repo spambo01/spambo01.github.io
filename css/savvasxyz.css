@@ -2,7 +2,7 @@ body{
     counter-reset: line;
     margin: auto;
     font-family: josefin sans;
-  background-color: #24292E;
+  background-color:var(--black);
 
 }
 
@@ -11,6 +11,7 @@ body{
   --font-color:black; /*#24292E  ;*/
     --bg-color:#878787;
     --main-color:brown ;
+    --black: #24292E;
     
 }
 
@@ -23,13 +24,13 @@ border-bottom: 0.1em solid ;
 
 .professional-card{    
     border-radius: 0.5em;
-    background-color: var(--bg-color);
+    background-color: var(--black);
     padding: 0.7em 1em 1em 1em;
-    width:25em;
+    width:30em;
     font-size: 1.5em;
     line-height: 1.5em;
     text-align: justify; 
-    color: var(--font-color);
+    color: white; var(--bg-color);
     z-index:1;
 }
 
@@ -69,7 +70,7 @@ section#about-section{
 
 nav{
     background-color: var(--bg-color);
-    width:20em;
+    
     height: 100%;
     position:fixed;
     font-family: josefin sans; 
@@ -79,6 +80,7 @@ nav{
 nav ul li a{      
     text-decoration: none;
     font-weight: bold;
+    color:var(--black);
 }
 
 nav ul li:not(:first-child) {
@@ -126,11 +128,11 @@ a.logo:hover{
 
 nav ul li a i.fas, nav ul li a i.far{
     font-size:0.8em;
+    color: var(--bg-color);
 }
 
-nav ul li a i.fas, nav ul li a i.far, a{    
-    /*color: #FEFCFD;*/
-    color:var(--font-color);
+ a{    
+    color: #FEFCFD;
 }
 
 
@@ -145,9 +147,9 @@ section{
     padding:0em 0.7em 0em 0.7em;    
 }
 
-.contact-icons  a
+.contact-icons a
 {
-    color: var(--font-color);
+    color:#FEFCFD;
     text-decoration: none;
 }
 /*
@@ -164,6 +166,7 @@ section{
 
 p#cv a {    
     text-decoration: underline;
+    
 }
 
 figcaption a:hover, .contact-icons a:hover
@@ -173,28 +176,32 @@ figcaption a:hover, .contact-icons a:hover
 
 footer{
     text-align: right; 
-    color: var(--font-color);
+    color:var(--bg-color);
     padding-right: 1em;
     padding-bottom: 0.5em;
 }
 
 .thumbnails img{
-    width:25em;      
-    height:12.5em;
-    opacity: 0.5;
+    width:15em; 
+height: 10em; 
+    border-radius: 0.5em;
+    border: 0.2em brown solid;
+    margin-top:1em;
 }
 
 .overlay {
   position: absolute;
-  top: 0;
+  top: 1em;
   bottom: 0;
   left: 0;
   right: 0;
-  height: 100%;
-  width: 100%;
+  height: 10.4em;
+  width: 15.4em;
   opacity: 0;
   transition: .5s linear;
-  background-color: var(--main-color);
+  background-color: white;
+    color: transparent;
+    border-radius: 0.5em;
 }
 
 .img-container {
@@ -203,11 +210,13 @@ footer{
 }
 .img-container:hover .overlay {
   opacity: 1;
+     background-color: var(--main-color);
+    color: #FEFCFD;
 }
 
 .text {
-    
-  font-size: 20px;
+   
+  font-size: 1em;
   position: absolute;
   top: 50%;
   left: 50%;
