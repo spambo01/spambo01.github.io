@@ -1,243 +1,96 @@
-body{
-    counter-reset: line;
-    margin: auto;
-    font-family: josefin sans;
-  background-color:var(--black);
-
-}
-
-
 :root {
-  --font-color:black; /*#24292E  ;*/
-    --bg-color:#878787;
-    --main-color:brown ;
-    --black: #24292E;
-    
+    --font-color:black; /*#24292E  ;*/
+      --bg-color:#878787;
+      --main-color:brown ;
+      --black: #24292E;    
+  }
+
+  .navbar {   
+    background-color:transparent;
+    }
+
+.center{
+    text-align: center;
 }
 
-nav ul li a:hover{      
-border-bottom: 0.1em solid ;
-    padding-bottom:0.2em;
-    transition: all .5s ease-out;
-    
+body section, body nav{
+    font-family: ubuntu;    
+   }
+
+   body section, footer{
+    background-color: #f8f9fa;
+   }
+
+.bg-image{
+    background: url('../pictures/cropped.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;   
 }
 
-.professional-card{    
-    border-radius: 0.5em;
-    background-color: var(--black);
-    padding: 0.7em 1em 1em 1em;
-    width:30em;
-    font-size: 1.5em;
-    line-height: 1.5em;
-    text-align: justify; 
-    color: white; var(--bg-color);
-    z-index:1;
+section a{
+    color:var(--black);
+    text-decoration: underline;
 }
 
-h1{
-    font-size:2em;
-    font-weight: 100;
-}
-h3{
-    font-family: josefin sans;
-    margin: 0em;
-    color: var(--main-color);
-    padding-bottom: 0.3em;
-    font-size:1.3em;
-    
+section .card a:hover{
+    border-bottom: 0px;
+    padding-bottom:0em;
+
 }
 
-.ball {
-  position:absolute;
-  border-radius: 100%;
-    background-color:#a8a8a8;
+nav ul li a{    
+    font-size: 15px;
+    color:var(--black);
+    font-weight: bold;
 }
 
-blockquote{
-    font-size:1.3em;
+section#head-section{
+    font-size: 15px;
+    font-weight: bold;    
+    background-color:transparent;
 }
 
 section#about-section{
-    padding-top:3.2em;
+    font-family: 'Lobster Two';   
 }
 
-.flex-container-card {
-    display: flex;
-    flex-flow: row wrap;
-  justify-content: center;
-    align-items: center;  
+section#contact-section a{
+    text-decoration: none;    
+    font-family: 'Lobster Two'; 
+    font-size: x-large;  
 }
 
-nav{
-    background-color: var(--bg-color);
-    
-    height: 100%;
-    position:fixed;
-    font-family: josefin sans; 
-    z-index:2;
-}
-
-nav ul li a{      
+section a:hover, nav ul li a:hover, section .card .card-text a:hover{      
+border-bottom: 1.5px solid ;
+    padding-bottom:0.2em;
+    transition: all .3s ease-out;     
+    color:var(--black); 
     text-decoration: none;
+}
+
+section#head-section h1 {     
+    font-family: 'Lobster Two';
+    font-size: 80px;    
     font-weight: bold;
-    color:var(--black);
 }
 
-nav ul li:not(:first-child) {
-    padding:0em 1em 1em 0.65em;
-    list-style: none;
-     font-size:1.8em;
-    font-weight: normal;
+section#project-section .card{
+    border:0px;
 }
 
-nav ul li:first-child {
-    padding:1.5em 1em 2.5em 1em;
-}
-
-nav ul li a.projects span{
-    padding-left:0.2em;
-}
-
-nav ul li a.timeline span{
-    padding-left:0.1em;
-}
-
-nav ul li a.timeline i{
-    margin-left: -0.1em;
-}
-
- i{
-    vertical-align:middle;
-}
-
- a.logo{
-    font-size: 5em;
-    color:var(--main-color);
-     font-weight: bold;     
-}
-
-a.logo:hover{
-    border-bottom: 0;
-}
-
-    ul {
-        margin:0;
-    padding: 0;
-    list-style-type: none;   
-}
-
-nav ul li a i.fas, nav ul li a i.far{
-    font-size:0.8em;
-    color: var(--bg-color);
-}
-
- a{    
-    color: #FEFCFD;
-}
-
-
-section{
- text-align: center;
-    margin: 0em 0em 6em 20em;    
-}
-
-
-
-.contact-icons i{
-    padding:0em 0.7em 0em 0.7em;    
-}
-
-.contact-icons a
-{
-    color:#FEFCFD;
-    text-decoration: none;
-}
-/*
-.contact-icons a:hover
-{
-    color:#a8a8a8;
-}
-
-.contact-icons{
-    background-color: brown;
-    text-align: center;
-}*/
-
-
-p#cv a {    
-    text-decoration: underline;
-    
-}
-
-figcaption a:hover, .contact-icons a:hover
-{
-    color:brown;
-}
+.empty-vertical-space1{    height: 180px;}
+.empty-vertical-space2{    height: 90px;}
+.empty-vertical-space3{    height: 45px;}
+.empty-vertical-space4{    height: 22.5px;}
 
 footer{
     text-align: right; 
-    color:var(--bg-color);
     padding-right: 1em;
-    padding-bottom: 0.5em;
+    padding-bottom: 0.5em;    
+    font-size: 0.5rem;
 }
 
-.thumbnails img{
-    width:15em; 
-height: 10em; 
-    border-radius: 0.5em;
-    border: 0.2em brown solid;
-    margin-top:1em;
-}
 
-.overlay {
-  position: absolute;
-  top: 1em;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 10.4em;
-  width: 15.4em;
-  opacity: 0;
-  transition: .5s linear;
-  background-color: white;
-    color: transparent;
-    border-radius: 0.5em;
-}
-
-.img-container {
-  position: relative;
-  width: 100%;
-}
-.img-container:hover .overlay {
-  opacity: 1;
-     background-color: var(--main-color);
-    color: #FEFCFD;
-}
-
-.text {
    
-  font-size: 1em;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-
-body {
-  font-size: small;
-}
-@media (max-width: 1000px) {
-  body { }
-}
-@media (max-width: 700px) {
-  body {  }
-}
-
-@media only screen and (max-width: 565px) {
-    
-  font-size: large;
- 
-}
