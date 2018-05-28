@@ -27,7 +27,7 @@ body section, body nav{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;  
-    height: 75vh;
+    height: 70vh;
     
 }
 
@@ -42,8 +42,9 @@ section .card a:hover{
 }
 
 nav ul li a{    
-    font-size: 3vh;  
+    font-size: 2.5vh;  
     color:var(--black);
+     /* color: blanchedalmond; */
     font-weight: bold;
 }
 
@@ -79,19 +80,19 @@ section#head-section h1 {
 
 section#project-section .card{
     border:0px;
-    font-size: x-large;
+    font-size: large;
 }
 
-.empty-vertical-space1{    height: 180px;}
-.empty-vertical-space2{    height: 90px;}
-.empty-vertical-space3{    height: 45px;}
-.empty-vertical-space4{    height: 22.5px;}
+.empty-vertical-space1{    height: 32vh;}
+.empty-vertical-space2{    height: 16vh;}
+.empty-vertical-space3{    height: 8vh;}
+.empty-vertical-space4{    height: 4vh;}
 
 footer{
     text-align: right; 
     padding-right: 1em;
     padding-bottom: 0.5em;    
-    font-size: 0.5rem;
+    font-size: 1rem;
 }
 
 
