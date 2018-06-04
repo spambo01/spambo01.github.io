@@ -1,6 +1,6 @@
 :root {
-    --font-color:black; /*#24292E  ;*/
-      --bg-color:#878787;
+    --font-color:#B5A7C8; /*#24292E  ;*/
+      --bg-color:#f8f9fa;
       --main-color:#C1B1CC ;
       --black: #24292E;    
   }
@@ -14,15 +14,15 @@
 }
 
 body section, body nav{
-    font-family: ubuntu;    
-   }
+     font-family: ubuntu;     
+       }
 
    body section, footer{
     background-color: #f8f9fa;
    }
 
 .bg-image{
-    background: url('../pictures/cropped.jpg') no-repeat center center fixed; 
+    background: url('../pictures/Hugues\ de\ BUYER-MIMEURE\ on\ Unsplash.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -33,7 +33,6 @@ body section, body nav{
 
 section a{
     color:var(--black);
-    text-decoration: underline;
 }
 
 section .card a:hover{
@@ -48,20 +47,20 @@ nav ul li a{
     font-weight: bold;
 }
 
-section#head-section{
-    
+section#head-section{    
     font-weight: bold;    
     background-color:transparent;
+    font-family: 'nova mono'
 }
 
 section#about-section{
-    font-size: x-large; 
+    font-size: large; 
 }
 
 section#contact-section a{
     text-decoration: none;    
-    /* font-family: 'Lobster Two';  */
-    font-size: x-large;  
+    font-family: 'nova mono';
+        font-size: large;  
 }
 
 section a:hover, nav ul li a:hover, section .card .card-text a:hover{      
@@ -72,10 +71,12 @@ border-bottom: 1.5px solid ;
     text-decoration: none;
 }
 
+
 section#head-section h1 {     
-    font-family: 'Lobster Two';
-    font-size: 13vh;    
-    font-weight: bold;
+    font-family: 'nova mono';
+    font-size: 4rem;    
+    font-weight: bold;    
+    color:var(--black);
 }
 
 section#project-section .card{
@@ -91,9 +92,18 @@ section#project-section .card{
 footer{
     text-align: right; 
     padding-right: 1em;
-    padding-bottom: 0.5em;    
-    font-size: 1rem;
+    padding-bottom: 0.5em; 
+    font-size:  x-small;  
+
 }
 
+footer, section#contact-section{
+    background-color:var(--black);
+    
+}
 
+footer, section#contact-section a{
+color:var(--bg-color);
+}
    
+
