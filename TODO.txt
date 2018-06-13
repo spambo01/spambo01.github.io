@@ -1,4 +1,3 @@
-add titles
-make letters of description smaller
-navbar in mobile is not working
+add titles?
 create a logo, bearded guy
+mobile version of navbar doesnt look nice
