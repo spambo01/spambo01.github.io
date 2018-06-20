@@ -2,3 +2,8 @@ add titles
 make letters of description smaller
 navbar in mobile is not working
 create a logo, bearded guy
+
+create patterns adding pictures website mia me geni mia me mapa mia me coding
+vasika kameis ena wallpaper me dika sou icons
+
+picture lazy loading improve loaid
