@@ -34,9 +34,16 @@ section a{
     color:var(--black);
 }
 
+
+
 section .card a:hover{
     border-bottom: 0px;
     padding-bottom:0em;
+}
+
+nav {
+    text-transform: uppercase;
+     text-align: center;
 }
 
 #navbarResponsive > ul > li.nav-item > a{    
@@ -104,5 +111,10 @@ footer, section#contact-section{
 footer, section#contact-section a{
 color:var(--bg-color);
 }
-   
+   @media only screen and (max-width: 600px) {
+    nav ul li a:hover {
+    border-bottom: 0px solid;
+     padding-bottom:0px;
+}
+}
 
