@@ -111,7 +111,7 @@ footer, section#contact-section{
 footer, section#contact-section a{
 color:var(--bg-color);
 }
-   @media only screen and (max-width: 600px) {
+   @media only screen and (max-width: 575px) {
     nav ul li a:hover {
     border-bottom: 0px solid;
 }
