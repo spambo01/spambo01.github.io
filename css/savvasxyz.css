@@ -14,7 +14,7 @@
 }
 
 body section, body nav{
-     font-family: ubuntu;     
+    /* font-family: ubuntu;   */  
        }
 
    body section, footer{
@@ -47,7 +47,7 @@ nav {
 }
 
 #navbarResponsive > ul > li.nav-item > a{    
-    font-size: 2.5vh;  
+    font-size: 2rem;  
     color:var(--black);
      /* color: blanchedalmond; */
     font-weight: bold;
