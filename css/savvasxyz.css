@@ -41,16 +41,22 @@ section .card a:hover{
     padding-bottom:0em;
 }
 
+.card-body {
+    border-top: 1px solid lightgrey;
+}
+
 nav {
     text-transform: uppercase;
      text-align: center;
 }
 
 #navbarResponsive > ul > li.nav-item > a{    
-    font-size: 2rem;  
-    color:var(--black);
-     /* color: blanchedalmond; */
-    font-weight: bold;
+    font-size: 1.25rem;
+    color: var(--black);
+    color: black;
+    /*  color: navajowhite; */
+    font-family: "nova mono";
+    text-transform: lowercase;
 }
 
 section#head-section{    
@@ -100,9 +106,10 @@ footer{
     padding-right: 1em;
     padding-bottom: 0.5em; 
     font-size:  x-small;  
-
 }
-
+footer a {
+    color: whitesmoke;
+}
 footer, section#contact-section{
     background-color:var(--black);
     
