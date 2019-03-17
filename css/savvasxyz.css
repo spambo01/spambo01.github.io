@@ -52,7 +52,7 @@ nav {
 
 #navbarResponsive > ul > li.nav-item > a{    
     font-size: 1.25rem;
-    color: var(--black);
+   font-weight: bold;
     color: black;
     /*  color: navajowhite; */
     font-family: "nova mono";
